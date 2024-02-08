@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Tilt+Neon&display=swap');
+
+:root {
+  --main-bg-color: 111;
+  --main-btn-color: #d1363a;
+
+  /* Killjoy */
+  --kj-yelow-color: #f2d52f;
+  --kj-green-color: #65ac7e;
+  --kj-pink-color: #da84f4;
+  --kj-purple-color: #483c74;
+
+  /* Neon */
+  --neon-orange: 	#eeaa55;
+  --neon-green1: #acfeac;
+  --neon-blue: 	#113d9e;
+  --neon-green2: #90fffc;
+  --neon-purple: 	#ac90ca;
+
+  /* Sage */
+  --sage-cyan: 	#e8e1ee;
+  --sage-green1: #3be0c3;
+  --sage-green2: #16b199;
+  --sage-green3: 	#38646b;
+  --sage-black: 	#151211;
+
+  /* Cypher */
+  --Cypher-blue: #5989c7;
+  --Cypher-green: #24fbff;
+  --Cypher-orange: #fead78;
+  --Cypher-cyan: #b9b9b9;
+  --Cypher-black: #131319;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  justify-content: space-around;
+  background-color: #222;
+  height: 80px;
+  padding-inline: 1.8rem;
+  list-style: none;
+  border-radius: 0 0.5rem;
+  color: white;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+.logo {
+  width: 200px;
+  transition: opacity 300ms ease;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button {
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: var(--main-btn-color);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.item {
+  position: relative;
+  font-size: 1rem;
+}
+
+.item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  height: 2px;
+  width: 100%;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: all 0.6s ease;
+}
+
+.item:hover::before {
+  transform: scaleX(1);
+}
+
+.item:hover {
+  opacity: 0.5s;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+  margin-top: 7em;
+  position: relative;
+}
+
+.bio {
+  width: 30%;
+  background: none;
+}
+
+
+h3 {
+  color: white;
+  font-weight: 500;
+}
+
+.killjoy img {
+  
+  width: 25%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.killjoy h1 {
+  color: var(--kj-yelow-color);
+}
+
+.Neon h1 {
+  color: var(--neon-green2);
+}
+
+.Sage h1 {
+  color: var(--kj-yelow-color);
+}
+
+.Cypher h1 {
+  color: var(--neon-green2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (max-width: 950px){
+  img {
+    width: 150%;
+    margin-top: 30px;
+  }
+} */
