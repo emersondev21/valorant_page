@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Tilt+Neon&display=swap');
 
 :root {
-  --main-bg-color: 111;
+  --main-bg-color: #222;
+  --main-bg-color-tranparent: #2222229a;
   --main-btn-color: #ff4655;
 
   /* Astra */
@@ -91,7 +92,7 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #201b2c; 
+  background: var(--main-bg-color); 
 }
  
 /* Handle */
@@ -128,6 +129,16 @@ nav ul {
   font-family: 'Tilt Neon', sans-serif;
 }
 
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
 .logo {
   width: 200px;
   transition: opacity 300ms ease;
@@ -136,6 +147,7 @@ nav ul {
 }
 
 button {
+  width: 120px;
   padding: 10px;
   font-size: 20px;
   background: none;
@@ -150,17 +162,43 @@ button:hover {
   background-color: #414141;
 }
 
-a {
-  text-decoration: none;
-  color: white;
+.dropdown-menu {
+  padding: 0 10px;
+  /* margin-top: 5px; */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 130px;
+  background-color: var(--main-bg-color);
+  font-size: 60px;
+  border-radius: 15px;display: none;
 }
+
+.dropdown-menu a {
+  display: block;
+  align-items: center;
+  margin: 3px 0;
+  text-align: center;
+  /* flex-direction: row; */
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+a:hover {
+  color: var(--main-btn-color);
+  font-weight: bold;
+}
+
 
 .item {
   position: relative;
   font-size: 1rem;
 }
 
-.item::before {
+/* .item::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -175,11 +213,11 @@ a {
 
 .item:hover::before {
   transform: scaleX(1);
-}
-
+} */
+/* 
 .item:hover {
   opacity: 0.5s;
-}
+} */
 
 .container {
   position: relative;
