@@ -4,38 +4,78 @@
   --main-bg-color: 111;
   --main-btn-color: #d1363a;
 
-  /* Killjoy */
-  --kj-yelow-color: #f2d52f;
-  --kj-green-color: #65ac7e;
-  --kj-pink-color: #da84f4;
-  --kj-purple-color: #483c74;
+  /* Astra */
+  --astra-purple: #7013e4;
 
-  /* Neon */
-  --neon-orange: 	#eeaa55;
-  --neon-green1: #acfeac;
-  --neon-blue: 	#113d9e;
-  --neon-green2: #90fffc;
-  --neon-purple: 	#ac90ca;
+  /* Breach */
+  --breach-orange: #ca5826;
 
-  /* Sage */
-  --sage-cyan: 	#e8e1ee;
-  --sage-green1: #3be0c3;
-  --sage-green2: #16b199;
-  --sage-green3: 	#38646b;
-  --sage-black: 	#151211;
+  /* Brimstone */
+  --brimstone-grey: #687c94;
+
+  /* Chamber */
+  --chamber-yellow: #ffd700;
 
   /* Cypher */
-  --Cypher-blue: #5989c7;
-  --Cypher-green: #24fbff;
   --Cypher-orange: #fead78;
-  --Cypher-cyan: #b9b9b9;
-  --Cypher-black: #131319;
+
+  /* Fade */
+  --fade-light-blue: #517baf;
+
+  /* Gekko */
+  --geko-green: #459c42;
+
+  /* Harbor */
+  --harbor-light-blue: #517baf;
+
+  /* Iso */
+  --iso-light-blue: #517baf;
+
+  /* Jett */
+  --jett-light-blue: #73f5ed;
+
+  /* Kayo */
+  --kayo-blue: #2f4fff;
+
+  /* Killjoy */
+  --kj-yelow-color: #f2d52f;
+
+  /* Omen */
+  --omen-blue: #315bb9;
+
+  /* Phoenix */
+  --phoenix-orange: #ff8513;
+
+  /* Raze */
+  --raze-yellow: #fec54d;
+
+  /* Reyna */
+  --reyna-purple: #983586;
+
+  /* Neon */
+  --neon-blue: #113d9e;
+
+  /* Sage */
+  --sage-green: #38646b;
+
+  /* Skye */
+  --skye-green: #00c36f;
+
+  /* Sova */
+  --sova-green1: #38b3dd;
+
+  /* Viper */
+  --viper-green: #00b441;
+
+  /* Yoru */
+  --yoru-light-blue: #4a60b6;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all .3s;
 }
 
 body {
@@ -73,10 +113,18 @@ nav ul {
 }
 
 button {
+  padding: 10px;
   font-size: 20px;
   background: none;
   border: none;
+  border-radius: 10px;
   color: var(--main-btn-color);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #414141;
 }
 
 a {
@@ -118,7 +166,6 @@ a {
   justify-content: center;
   gap: 4em;
   margin-top: 7em;
-  position: relative;
 }
 
 .bio {
@@ -132,81 +179,112 @@ h3 {
   font-weight: 500;
 }
 
-.killjoy img {
-  
-  width: 25%;
-}
-
 h1 {
   font-size: 50px;
 }
+
+.Astra h1 {
+  color: var(--astra-purple);
+}
+
+.Breach h1 {
+  color: var(--breach-orange);
+}
+
+.Brimstone h1 {
+  color: var(--brimstone-grey);
+}
+
+.chamber h1 {
+  color: var(--chamber-yellow);
+}
+
+.Cypher h1 {
+  color: var(--Cypher-orange);
+}
+
+.Fade h1 {
+  color: var(--fade-light-blue);
+}
+
+.Harbor h1 {
+  color: var(--harbor-light-blue);
+}
+
+.Gekko h1 {
+  color: var(--geko-green);
+}
+
+.Iso h1 {
+  color: var(--iso-light-blue);
+}
+
+.Jett h1 {
+  color: var(--jett-light-blue);
+}
+
+.Kayo h1 {
+  color: var(--kayo-blue);
+}
+
 
 .killjoy h1 {
   color: var(--kj-yelow-color);
 }
 
 .Neon h1 {
-  color: var(--neon-green2);
+  color: var(--neon-blue);
+}
+
+.Omen h1 {
+  color: var(--omen-blue);
+}
+
+.Phoenix h1 {
+  color: var(--phoenix-orange);
+}
+
+.Raze h1 {
+  color: var(--raze-yellow);
+}
+
+.Reyna {
+  color: var(--reyna-purple);
 }
 
 .Sage h1 {
-  color: var(--kj-yelow-color);
+  color: var(--sage-green);
 }
 
-.Cypher h1 {
-  color: var(--neon-green2);
+.Skye h1 {
+  color: var(--skye-green);
+}
+
+.sova h1 {
+  color: var(--sova-green1);
+}
+
+.Viper h1 {
+  color: var(--viper-green);
+}
+
+.Yoru h1 {
+  color: var(--yoru-light-blue);
+}
+
+.character {
+  animation: flutuar 4s infinite ease-in-out;
 }
 
 
+@keyframes flutuar {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media only screen and (max-width: 950px){
-  img {
-    width: 150%;
-    margin-top: 30px;
+  0%,
+  100% {
+    transform: translateY(0);
   }
-} */
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
