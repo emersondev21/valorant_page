@@ -89,6 +89,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 1;
+  margin-bottom: 200px;
 }
 
 nav ul {
@@ -160,17 +161,19 @@ a {
 
 .container {
   position: relative;
-  height: 100%;
+  height: 47em;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 4em;
-  margin-top: 7em;
+  margin-top: 5em;
+  z-index: -1;
 }
 
 .bio {
   width: 30%;
   background: none;
+  text-align: end;
 }
 
 
@@ -226,7 +229,6 @@ h1 {
 .Kayo h1 {
   color: var(--kayo-blue);
 }
-
 
 .killjoy h1 {
   color: var(--kj-yelow-color);
@@ -311,4 +313,250 @@ h1 {
   50% {
     transform: translateY(-20px);
   }
+}
+
+.Astra {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/LotusTR.png');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Brimstone {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/pxfuel\ \(3\).jpg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Chamber {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/AscentA.jpg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Cypher {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/AscentB.jpg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Fade {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/Ascent.png');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Harbor {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/lotus.png');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Gekko {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/breeze2.png');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Iso {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/pxfuel.jpg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Kayo {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/icebox3.jpg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Jett {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/Icebox.jpg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.killjoy {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/split2-2.jpg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Neon {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/ascent4.png');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Omen {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/bind6.jpg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Phoenix {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/pxfuel\ \(1\).jpg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Raze {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/haven3.jpg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Reyna {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/haven2.jpg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Sage {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/haven2.jpg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Skye {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/Breeze.png');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Sova {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/haven1.jpg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Viper {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/Ascent.png');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Yoru {
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/pxfuel.jpg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.divisao {
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 40%);
+  z-index: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inverted {
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 0 60%);
+}
+
+.divAstra {
+  background-image: url(/assets/img/background/Astra.gif);
+}
+
+.divBrimstone {
+  background-image: url(/assets/img/background/Brimstone.gif);
+}
+
+.divChamber {
+  background-image: url(/assets/img/background/Chamber.gif);
+}
+
+.divCypher {
+  background-image: url(/assets/img/background/Cypher.gif);
+}
+
+.divFade {
+  background-image: url(/assets/img/background/Fade.gif);
+}
+
+.divHarbor {
+  background-image: url(/assets/img/background/Harbor2.gif);
+}
+
+.divGekko {
+  background-image: url(/assets/img/background/Gekko.gif);
+}
+
+.divIso {
+  background-image: url(/assets/img/background/Iso.gif);
+}
+
+.divKayo {
+  background-image: url(/assets/img/background/Kayo.gif);
+}
+
+.divJett {
+  background-image: url(/assets/img/background/Jett.gif);
+}
+
+.divkilljoy {
+  background-image: url(/assets/img/background/Killjoy.gif);
+}
+
+.divNeon {
+  background-image: url(/assets/img/background/neon2.gif);
+}
+
+.divOmen {
+  background-image: url(/assets/img/background/Omen.gif);
+}
+
+.divPhoenix {
+  background-image: url(/assets/img/background/Phoenix.gif);
+}
+
+.divRaze {
+  background-image: url(/assets/img/background/Raze.gif);
+}
+
+.divReyna {
+  background-image: url(/assets/img/background/Reyna.gif);
+}
+
+.divSage {
+  background-image: url(/assets/img/background/Sage2.gif);
+}
+
+.divSkye {
+  background-image: url(/assets/img/background/Skye.gif);
+}
+
+.divSova {
+  background-image: url(/assets/img/background/Sova.gif);
+}
+
+.divViper {
+  background-image: url(/assets/img/background/Viper.gif);
+}
+
+.divYoru {
+  background-image: url(/assets/img/background/Yoru.gif);
 }

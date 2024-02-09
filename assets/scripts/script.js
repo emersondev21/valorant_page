@@ -20,5 +20,5 @@ sr.reveal('.Reyna', { duration: 2000 });
 sr.reveal('.Sage', { duration: 2000 });
 sr.reveal('.Skye', { duration: 2000 });
 sr.reveal('.Sova', { duration: 2000 });
-sr.reveal('.Vipe', { duration: 2000 });
+sr.reveal('.Viper', { duration: 2000 });
 sr.reveal('.Yoru', { duration: 2000 });
