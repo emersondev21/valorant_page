@@ -2,7 +2,7 @@
 
 :root {
   --main-bg-color: 111;
-  --main-btn-color: #d1363a;
+  --main-btn-color: #ff4655;
 
   /* Astra */
   --astra-purple: #7013e4;
@@ -76,11 +76,33 @@
   padding: 0;
   box-sizing: border-box;
   transition: all .3s;
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: #111;
   font-family: 'Tilt Neon', sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #201b2c; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main-btn-color);
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c45e61; 
 }
 
 header {
@@ -161,7 +183,7 @@ a {
 
 .container {
   position: relative;
-  height: 47em;
+  height: 48em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -275,6 +297,7 @@ h1 {
 }
 
 .character {
+  /* width: 95%; */
   animation: flutuar 4s infinite ease-in-out;
 }
 
@@ -517,7 +540,7 @@ h1 {
   background-image: url(/assets/img/background/Jett.gif);
 }
 
-.divkilljoy {
+.divKilljoy {
   background-image: url(/assets/img/background/Killjoy.gif);
 }
 
