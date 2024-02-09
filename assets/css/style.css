@@ -195,7 +195,7 @@ h1 {
   color: var(--brimstone-grey);
 }
 
-.chamber h1 {
+.Chamber h1 {
   color: var(--chamber-yellow);
 }
 
@@ -260,7 +260,7 @@ h1 {
   color: var(--skye-green);
 }
 
-.sova h1 {
+.Sova h1 {
   color: var(--sova-green1);
 }
 
@@ -276,6 +276,30 @@ h1 {
   animation: flutuar 4s infinite ease-in-out;
 }
 
+.Astra,
+.Breach,
+.Brimstone,
+.Chamber,
+.Cypher,
+.Fade,
+.Harbor,
+.Gekko,
+.Iso,
+.Jett,
+.Kayo,
+.killjoy,
+.Neon,
+.Omen,
+.Phoenix,
+.Raze,
+.Reyna,
+.Sage,
+.Skye,
+.Sova,
+.Viper,
+.Yoru {
+  visibility: hidden;
+}
 
 @keyframes flutuar {
 

@@ -1,9 +1,24 @@
-let container = document.querySelector('.container')
-let character = document.getElementById('.character')
+window.sr = ScrollReveal({ reset: true });
 
-container.onmousemove = function(e){
-  let x = e.pageX
-  let y = e.pageY
-
-  character.style.transform = 'translate(' + x/100*3 +'px,' + y/100*2 +'px)';
-};
+sr.reveal('.Astra', { duration: 2000 });
+sr.reveal('.Breach', { duration: 2000 });
+sr.reveal('.Brimstone', { duration: 2000 });
+sr.reveal('.Chamber', { duration: 2000 });
+sr.reveal('.Cypher', { duration: 2000 });
+sr.reveal('.Fade', { duration: 2000 });
+sr.reveal('.Harbor', { duration: 2000 });
+sr.reveal('.Gekko', { duration: 2000 });
+sr.reveal('.Iso', { duration: 2000 });
+sr.reveal('.Jett', { duration: 2000 });
+sr.reveal('.Kayo', { duration: 2000 });
+sr.reveal('.killjoy', { duration: 2000 });
+sr.reveal('.Neon', { duration: 2000 });
+sr.reveal('.Omen', { duration: 2000 });
+sr.reveal('.Phoenix', { duration: 2000 });
+sr.reveal('.Raze', { duration: 2000 });
+sr.reveal('.Reyna', { duration: 2000 });
+sr.reveal('.Sage', { duration: 2000 });
+sr.reveal('.Skye', { duration: 2000 });
+sr.reveal('.Sova', { duration: 2000 });
+sr.reveal('.Vipe', { duration: 2000 });
+sr.reveal('.Yoru', { duration: 2000 });
