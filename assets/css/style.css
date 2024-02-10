@@ -92,9 +92,9 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--main-bg-color); 
+  background: var(--main-bg-color);
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--main-btn-color);
@@ -103,7 +103,7 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #c45e61; 
+  background: #c45e61;
 }
 
 header {
@@ -172,7 +172,8 @@ button:hover {
   width: 130px;
   background-color: var(--main-bg-color);
   font-size: 60px;
-  border-radius: 15px;display: none;
+  border-radius: 15px;
+  display: none;
 }
 
 .dropdown-menu a {
@@ -377,147 +378,147 @@ h1 {
 }
 
 .Astra {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/LotusTR.png');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/LotusTR.png');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Brimstone {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/pxfuel\ \(3\).jpg');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/pxfuel\ \(3\).jpg');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Chamber {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/AscentA.jpg');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/AscentA.jpg');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Cypher {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/AscentB.jpg');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/AscentB.jpg');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Fade {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/Ascent.png');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/Ascent.png');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Harbor {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/lotus.png');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/lotus.png');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Gekko {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/breeze2.png');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/breeze2.png');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Iso {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/pxfuel.jpg');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/pxfuel.jpg');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Kayo {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/icebox3.jpg');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/icebox3.jpg');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Jett {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/Icebox.jpg');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/Icebox.jpg');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .killjoy {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/split2-2.jpg');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/split2-2.jpg');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Neon {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/ascent4.png');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/ascent4.png');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Omen {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/bind6.jpg');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/bind6.jpg');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Phoenix {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/pxfuel\ \(1\).jpg');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/pxfuel\ \(1\).jpg');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Raze {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/haven3.jpg');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/haven3.jpg');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Reyna {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/haven2.jpg');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/haven2.jpg');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Sage {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/haven2.jpg');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/haven2.jpg');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Skye {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/Breeze.png');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/Breeze.png');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Sova {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/haven1.jpg');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/haven1.jpg');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Viper {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/Ascent.png');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/Ascent.png');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Yoru {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(42,42,42,0.7861519607843137) 41%, rgba(0,0,0,0.7049194677871149) 100%), url('/assets/img/background/pxfuel.jpg');
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(42, 42, 42, 0.7861519607843137) 41%, rgba(0, 0, 0, 0.7049194677871149) 100%), url('/assets/img/background/pxfuel.jpg');
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
@@ -559,7 +560,7 @@ h1 {
 }
 
 .divHarbor {
-  background-image: url(https://64.media.tumblr.com/b0b1fd8a632d12625c4e52e0d1bfe419/7c527b5b9cfae5b7-25/s540x810/bbe73287c20b473454e31daa5c629408cee8b269.gif);
+  background-image: url(https://64.media.tumblr.com/622e62c56d379ccd8c65339e88249a5f/1215846c1696444f-45/s540x810/7b09487b6445e65f5fa0746acc9d2ddbc5830477.gifv);
 }
 
 .divGekko {
@@ -571,11 +572,11 @@ h1 {
 }
 
 .divKayo {
-  background-image: url(/assets/img/background/Kayo.gif);
+  background-image: url(https://64.media.tumblr.com/29e2d74982f2e6422c97fb0b799cc01f/0f8dac178eacecc7-5c/s540x810/2bc3fcc876bd61b7ad9858eede750d2d491cbd30.gifv);
 }
 
 .divJett {
-  background-image: url(https://64.media.tumblr.com/b250dc44572a772242f9f83e33dfb77e/c5d71214133b04bc-9a/s540x810/b1a93ad40b203456c04de08029213d667e9d5d8d.gifv);
+  background-image: url(https://64.media.tumblr.com/92630e799e46a27728d0c7fa80aa4458/7f2306fbcac6cf32-03/s400x600/81c5f2e489463b82d334e06a07952e4770d879e1.gifv);
 }
 
 .divKilljoy {
@@ -591,7 +592,7 @@ h1 {
 }
 
 .divPhoenix {
-  background-image: url(https://64.media.tumblr.com/e613a7d8cf75b876897b155379d13edf/5676916248bbf8a5-d7/s540x810/d3647e224a946008b653be088413b8776493b2e4.gifv);
+  background-image: url(https://64.media.tumblr.com/e23cc5028d648c874a729f9f99190635/0f8dac178eacecc7-ef/s540x810/7a58671a5da57c2f9a34b5216ff5c236d9457408.gifv);
 }
 
 .divRaze {
@@ -603,7 +604,7 @@ h1 {
 }
 
 .divSage {
-  background-image: url(https://64.media.tumblr.com/34ee3c5d8b3c7cf5bac2ee82748e2a60/94f79bb1bbd89fa6-a6/s540x810/a305eccf01a2d4dccd9ad439e94cf89333f67490.gif);
+  background-image: url(https://64.media.tumblr.com/7c1b0551ec80a4a9bde9b4ba4e983e0c/662a9f2e2bbd9298-56/s540x810/fd80e7a9a961f1a972ccc8dd28c43efd3d50bdc7.gifv);
 }
 
 .divSkye {
@@ -611,7 +612,7 @@ h1 {
 }
 
 .divSova {
-  background-image: url(https://64.media.tumblr.com/4afde68f27e82e1cdaea1ddaeaf74039/23ae939af10a9284-55/s540x810/780813f3bcd6893cdad935f86b0caeb6d709e447.gifv);
+  background-image: url(https://64.media.tumblr.com/259fe791df59fce424aa9f92e26e8a31/7f2306fbcac6cf32-28/s400x600/fdffac916fee9bf83ff7a79819c81ed76a98d47c.gifv);
 }
 
 .divViper {
@@ -619,5 +620,32 @@ h1 {
 }
 
 .divYoru {
-  background-image: url(https://i.pinimg.com/originals/4d/bc/b9/4dbcb9a8779bc55708961d49b23f1047.gif);
+  background-image: url(https://64.media.tumblr.com/7d0a7667b37156ae5b8774265f0098d3/1dfcc1a1228baa9c-f9/s400x600/f606dddf1a0ecb12c7611caebed17e01154cffe1.gifv);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  /* background-color: #00b441; */
+  width: 100%;
+  height: 400px;
+  color: white;
+  padding: 30px;
+}
+
+footer h1 {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+footer h3 {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+footer a {
+  color: white;
+  font-size: 40px;
 }
